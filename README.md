@@ -3,15 +3,15 @@
 Keeping main.py, today.json and yesterday.json in the same file, run the following commands:
    pip install tqdm
    python main.py
-## Tasks
-# Task1 : Number of URLH which are overlapping (Common) in two files.
+### Tasks
+#### Task1 : Number of URLH which are overlapping (Common) in two files.
 Made two sets of today's URLHs and yesterday's URLHs. For each of the URLH in the 1st set, checked for the occurence in the other set. If found, then appended it in a list of common_urlhs
 
-# Task2 : For all the URLH which are overlapping, calculate the price difference (wrt available_price) if there is any between yesterday's and today's crawls (scraped data).               There might be duplicate URLHs in which case you can choose the first valid (with http_status 200) record.
+#### Task2 : For all the URLH which are overlapping, calculate the price difference (wrt available_price) if there is any between yesterday's and today's crawls (scraped data).               There might be duplicate URLHs in which case you can choose the first valid (with http_status 200) record.
 Checked for each item in common_urlh that has http_status = 200 and available price difference not equal to zero and then stored the absolute value of price_difference
 in a dictionary.
 
-# Task3 :  Number of Unique categories in both files
+#### Task3 :  Number of Unique categories in both files
 Again made two sets for storing today's and yesterday's category. Then printed the length of the sets.
 
 # Task4 : Display List of categories which is not overlapping (Common) from two given files
