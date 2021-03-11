@@ -14,23 +14,23 @@ in a dictionary.
 #### Task3 :  Number of Unique categories in both files
 Again made two sets for storing today's and yesterday's category. Then printed the length of the sets.
 
-# Task4 : Display List of categories which is not overlapping (Common) from two given files
+#### Task4 : Display List of categories which is not overlapping (Common) from two given files
 Used the previously created sets for the categories. For each item in set1, checked it's occurence in set2. If not found then appended the category in a separate list
 for storing the uncommon categories.
 
-# Task5 : Generate the stats with count of urlh for all taxonomies (taxonomy is concatenation of category and subcategory separated by " > ") for today's file.
+#### Task5 : Generate the stats with count of urlh for all taxonomies (taxonomy is concatenation of category and subcategory separated by " > ") for today's file.
 Made a dictionary for storing the taxonomies. Checked for the presence of the taxonomy in the dictionary. If already present then increased it's counter by 1 else initialised it by 1.
 
-# Task6 : Generate a new file where mrp is normalized. If there is a 0 or a non-float value or the key doesn't exist, make it "NA".
+#### Task6 : Generate a new file where mrp is normalized. If there is a 0 or a non-float value or the key doesn't exist, make it "NA".
 Checked for mrp in each row. Modified it, if it's value is 0 or it doesn't exist or it's a non-float value. Then generated a new file to show the relevant changes.
 
-# Task7 : Display the title and price of 10 items having least price
+#### Task7 : Display the title and price of 10 items having least price
 The idea was to use a dictionary and keep the title as the key of the dictionary so that the price of the same could be kept in the values. So check the available price for the item and assign as the value to the key. Then sort it in ascending order on the basis of the price and take the top 10 values
 
-# Task8 :  Display the top 5 subcategory having highest items.
+#### Task8 :  Display the top 5 subcategory having highest items.
 Make a key value pair as subcategory,no. Of items . Checked for the presence of the key-value pair in the dictionary. If already present then increased it's counter by 1 else initialised it by 1. Sorted it and displayed top 5 items.
 
-# Task9 : Display stats of how many items have failed status (http_status other than 200 is to be considered as failure.
+#### Task9 : Display stats of how many items have failed status (http_status other than 200 is to be considered as failure.
 For each row in the dataset, checked for the http_status. If not found 200 then increased its counter by 1 in the dictionary. If it was not present in the dictionary then initialised it by 1.
 
 ## Author
