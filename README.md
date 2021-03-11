@@ -1,5 +1,5 @@
 # Data_Weave_Assign
-## Steps to run
+### Steps to run
 Keeping main.py, today.json and yesterday.json in the same file, run the following commands:
    pip install tqdm
    python main.py
